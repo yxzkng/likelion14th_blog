@@ -5,8 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
+@NoArgsConstructor // 기본생성자를 만들어줌.
+@AllArgsConstructor // 모든 인자를 가진 생성자를 만들어줌.
 
 public class ArticleRequest {
     private String title;

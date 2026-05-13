@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Setter
 @Builder
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor //domain 객체에서는 사용하면 좋은 방식이 아님.
 public class Article {
 
     @Id // id 필드를 기본키(Primary Key)로 지정

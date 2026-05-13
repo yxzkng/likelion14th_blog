@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @Builder
 public class ArticleResponse {
-    private final long id;
+    private final Long id;
     private final String title;
     private final String content;
     private final String author;
