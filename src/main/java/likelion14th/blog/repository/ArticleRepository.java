@@ -9,4 +9,6 @@ public interface ArticleRepository extends JpaRepository<Article, Long>{
     Optional<Article> findByTitle(String title);
     Optional<Article> findByContent(String content);
     Optional<Article> findByAuthor(String author);
+
+    Optional<Article> findById(Long id);
 }
