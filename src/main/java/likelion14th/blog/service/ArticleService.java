@@ -45,4 +45,6 @@ public class ArticleService {
         return articleResponses;
     }
 
+    public void deleteArticle(Long id) {
+    }
 }

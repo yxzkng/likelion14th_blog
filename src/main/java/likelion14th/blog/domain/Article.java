@@ -49,4 +49,6 @@ public class Article {
             this.content = content;
         }
     }
+
 }
+
